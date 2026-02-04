@@ -1,7 +1,5 @@
 CodSoft Java Development Internship
-
 Name: Manoj Kumar
-
 Tasks Completed:
 1. Number Guessing Game
 2. Student Grade Calculator
