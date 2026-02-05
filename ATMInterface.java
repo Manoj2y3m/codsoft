@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ATMInterface {
 
-    static double balance = 5000; // Initial balance
+    static double balance = 5000;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
