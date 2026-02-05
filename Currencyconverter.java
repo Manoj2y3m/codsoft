@@ -5,7 +5,7 @@ public class CurrencyConverter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("💱 Currency Converter");
+        System.out.println(" Currency Converter");
         System.out.println("Available Currencies:");
         System.out.println("1. INR");
         System.out.println("2. USD");
@@ -23,7 +23,7 @@ public class CurrencyConverter {
         double rate = getExchangeRate(base, target);
         double convertedAmount = amount * rate;
 
-        System.out.println("✅ Converted Amount: " + convertedAmount);
+        System.out.println(" Converted Amount: " + convertedAmount);
 
         sc.close();
     }
@@ -46,7 +46,7 @@ public class CurrencyConverter {
         if (base == 2 && target == 1) return 1 / inrToUsd;
         if (base == 2 && target == 3) return inrToUsd / inrToEur;
 
-        // EUR conversions
+        
         if (base == 3 && target == 1) return 1 / inrToEur;
         if (base == 3 && target == 2) return inrToEur / inrToUsd;
 
